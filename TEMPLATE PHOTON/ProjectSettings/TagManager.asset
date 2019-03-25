@@ -11,6 +11,14 @@ TagManager:
   - FxTemporaire
   - Enemy projectile
   - Decor
+  - PlayerSpell
+  - Description
+  - Name
+  - ArtefactIcon
+  - BasicSpellIcon
+  - SpecialSpellIcon
+  - ClassIcon
+  - GOD
   layers:
   - Default
   - TransparentFX
