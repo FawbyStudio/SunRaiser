@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114594960748041492}
   - component: {fileID: 58008331225199936}
   m_Layer: 5
-  m_Name: ICON_Primitive_Necklace
+  m_Name: ICON_ART_Primitive_Necklace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

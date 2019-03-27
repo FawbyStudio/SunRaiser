@@ -61,7 +61,7 @@ GameObject:
   - component: {fileID: 114046399090110946}
   - component: {fileID: 58465012963858364}
   m_Layer: 5
-  m_Name: ICON_Medusa's_Stone
+  m_Name: ICON_ART_Medusa's_Stone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

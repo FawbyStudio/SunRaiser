@@ -9,25 +9,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a6a4566c8b774512813a3992aa8b88d, type: 3}
-  m_Name: BeautifyProfile
+  m_Name: M%enu
   m_EditorClassIdentifier: 
   dither: 0.05
   ditherDepth: 0
   sharpenMinDepth: 0
   sharpenMaxDepth: 0.999
-  sharpen: 9.9
+  sharpen: 5.63
   sharpenDepthThreshold: 0.035
-  tintColor: {r: 0.7973923, g: 0.8137807, b: 0.9339623, a: 1}
+  tintColor: {r: 1, g: 1, b: 1, a: 0.6156863}
   sharpenRelaxation: 0.07
   sharpenClamp: 0.45
   sharpenMotionSensibility: 0.5
-  saturate: -0.95
-  contrast: 1.107
-  brightness: 1.66
+  saturate: -0.64
+  contrast: 1.053
+  brightness: 0.983
   daltonize: 0
   vignetting: 1
-  vignettingColor: {r: 0, g: 0, b: 0, a: 0.050980393}
-  vignettingCircularShape: 0
+  vignettingColor: {r: 0, g: 0, b: 0, a: 0.078431375}
+  vignettingCircularShape: 1
   vignettingMask: {fileID: 0}
   frame: 0
   frameColor: {r: 1, g: 1, b: 1, a: 0.047}
@@ -41,15 +41,15 @@ MonoBehaviour:
   outlineMode: 0
   thermalVision: 0
   lensDirt: 1
-  lensDirtThreshold: 0.497
-  lensDirtIntensity: 0.666
+  lensDirtThreshold: 0.498
+  lensDirtIntensity: 0.174
   lensDirtTexture: {fileID: 2800000, guid: dec70c1ae0ce346849f747716f782eb8, type: 3}
   bloom: 1
   bloomCullingMask:
     serializedVersion: 2
     m_Bits: 0
   bloomLayerMaskDownsampling: 1
-  bloomIntensity: 0.73
+  bloomIntensity: 0.15
   bloomMaxBrightness: 1000
   bloomBoost0: 0
   bloomBoost1: 0
@@ -59,7 +59,7 @@ MonoBehaviour:
   bloomBoost5: 0
   bloomAntiflicker: 0
   bloomUltra: 0
-  bloomThreshold: 0.36
+  bloomThreshold: 0.43
   bloomCustomize: 0
   bloomWeight0: 0.5
   bloomWeight1: 0.5
@@ -79,10 +79,10 @@ MonoBehaviour:
   anamorphicFlaresVertical: 0
   anamorphicFlaresTint: {r: 0.5, g: 0.5, b: 1, a: 0}
   anamorphicFlaresBlur: 1
-  depthOfField: 1
+  depthOfField: 0
   depthOfFieldTransparencySupport: 1
   depthOfFieldTargetFocus: {fileID: 0}
-  depthOfFieldAutofocus: 1
+  depthOfFieldAutofocus: 0
   depthOfFieldAutofocusLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -96,7 +96,7 @@ MonoBehaviour:
   depthOfFieldFocusSpeed: 1
   depthOfFieldDownsampling: 1
   depthOfFieldMaxSamples: 2
-  depthOfFieldFocalLength: 0.316
+  depthOfFieldFocalLength: 0.047
   depthOfFieldAperture: 28.35
   depthOfFieldForegroundBlur: 1
   depthOfFieldForegroundDistance: 0.31
