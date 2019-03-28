@@ -2180,6 +2180,8 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.SetVector3XYZ
         - HutongGames.PlayMaker.Actions.RandomFloat
         - HutongGames.PlayMaker.Actions.Wait
+        - HutongGames.PlayMaker.Actions.FindGameObject
+        - HutongGames.PlayMaker.Actions.GetFsmGameObject
         - HutongGames.PlayMaker.Actions.ArrayGetRandom
         - HutongGames.PlayMaker.Actions.PhotonNetworkInstantiate
         - HutongGames.PlayMaker.Actions.DestroyObject
@@ -2196,12 +2198,26 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 010101010100010101
-        actionIsOpen: 000000000100000000
-        actionStartIndex: 0000000006000000090000000c00000011000000170000001a0000001d00000022000000
-        actionHashCodes: dfd72a042ee0170448c0110159788700e3e02c039ff80c02786b39025b66cf0088611604
+        - 
+        - 
+        actionEnabled: 0101010101000100010101
+        actionIsOpen: 0000000001000100000000
+        actionStartIndex: 0000000006000000090000000c0000000f00000014000000190000001f00000022000000250000002a000000
+        actionHashCodes: dfd72a042ee0170448c01101786b39025b66cf0059788700e3e02c039ff80c02786b39025b66cf0088611604
         unityObjectParams: []
         fsmGameObjectParams:
+        - useVariable: 1
+          name: GOD
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: playerToCreate
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
         - useVariable: 1
           name: playerToCreate
           tooltip: 
@@ -2242,6 +2258,14 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
+            name: GOD
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
             name: master
             tooltip: 
             showInInspector: 0
@@ -2254,6 +2278,30 @@ MonoBehaviour:
         fsmPropertyParams: []
         layoutOptionParams: []
         fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: GOD
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: SETUP
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: playerToCreate
         - useVariable: 0
           name: 
           tooltip: 
@@ -2429,12 +2477,12 @@ MonoBehaviour:
         stringParams:
         - 
         - FINISHED
-        byteData: 00000000
+        byteData: 0000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1c0000001c0000000f0000000f0000000f000000010000000f0000000f0000000f0000000f0000001700000001000000290000002700000010000000110000000100000013000000130000001c0000001c0000001000000013000000130000000f00000011000000120000001200000013000000140000001200000012000000130000000100000017000000
+        paramDataType: 1c0000001c0000000f0000000f0000000f000000010000000f0000000f0000000f0000000f00000017000000010000001200000012000000130000001400000012000000120000001300000001000000290000002700000010000000110000000100000013000000130000001c0000001c0000001000000013000000130000000f00000011000000120000001200000013000000140000001200000012000000130000000100000017000000
         paramName:
         - vector3Variable
         - vector3Value
@@ -2448,6 +2496,14 @@ MonoBehaviour:
         - time
         - finishEvent
         - realTime
+        - objectName
+        - withTag
+        - store
+        - gameObject
+        - fsmName
+        - variableName
+        - storeValue
+        - everyFrame
         - array
         - storeValue
         - index
@@ -2471,8 +2527,8 @@ MonoBehaviour:
         - setValue
         - everyFrame
         - sendEvent
-        paramDataPos: 0000000001000000000000000100000002000000000000000300000004000000050000000600000000000000010000000000000000000000000000000000000002000000000000000100000002000000030000000100000002000000030000000700000001000000000000000100000004000000000000000200000003000000050000000300000001000000
-        paramByteDataSize: 0000000000000000000000000000000000000000010000000000000000000000000000000000000000000000010000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000
+        paramDataPos: 00000000010000000000000001000000020000000000000003000000040000000500000006000000000000000100000000000000010000000000000000000000020000000300000001000000020000000000000000000000000000000000000003000000020000000300000002000000030000000100000004000000050000000700000001000000040000000500000006000000010000000600000007000000070000000400000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000100000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000
     - name: State 3
       description: 
       colorIndex: 0
@@ -2717,6 +2773,12 @@ MonoBehaviour:
       quaternionVariables: []
       gameObjectVariables:
       - useVariable: 1
+        name: GOD
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
+      - useVariable: 1
         name: master
         tooltip: 
         showInInspector: 0
@@ -2757,7 +2819,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -6016,7 +6078,7 @@ MonoBehaviour:
   _sunFlaresRotationDeadZone: 0
   _blur: 0
   _blurIntensity: 1
-  isDirty: 0
+  isDirty: 1
   bMat: {fileID: 0}
 --- !u!20 &1816513888
 Camera:
@@ -8259,92 +8321,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2040542330}
   m_CullTransparentMesh: 0
---- !u!1 &2047521653
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2047521657}
-  - component: {fileID: 2047521656}
-  - component: {fileID: 2047521655}
-  - component: {fileID: 2047521654}
-  m_Layer: 0
-  m_Name: Capsule
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!136 &2047521654
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2047521653}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &2047521655
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2047521653}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &2047521656
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2047521653}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &2047521657
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2047521653}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5752042, y: 20.60596, z: -14.529256}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2052003529
 GameObject:
   m_ObjectHideFlags: 0
