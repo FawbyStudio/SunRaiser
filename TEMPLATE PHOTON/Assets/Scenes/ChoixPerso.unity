@@ -10324,13 +10324,13 @@ MonoBehaviour:
   _sharpenMaxDepth: 0.999
   _sharpen: 5.63
   _sharpenDepthThreshold: 0.035
-  _tintColor: {r: 1, g: 1, b: 1, a: 0.6156863}
+  _tintColor: {r: 1, g: 0.8289874, b: 0.6745283, a: 0.6156863}
   _sharpenRelaxation: 0.07
   _sharpenClamp: 0.45
   _sharpenMotionSensibility: 0.5
   _saturate: -0.64
-  _contrast: 1.033
-  _brightness: 1.219
+  _contrast: 1.067
+  _brightness: 1.158
   _daltonize: 0
   _vignetting: 1
   _vignettingColor: {r: 0, g: 0, b: 0, a: 0.078431375}
@@ -10348,8 +10348,8 @@ MonoBehaviour:
   _outlineMode: 0
   _thermalVision: 0
   _lensDirt: 1
-  _lensDirtThreshold: 0.495
-  _lensDirtIntensity: 0.174
+  _lensDirtThreshold: 0.499
+  _lensDirtIntensity: 0.191
   _lensDirtTexture: {fileID: 2800000, guid: dec70c1ae0ce346849f747716f782eb8, type: 3}
   _bloom: 1
   _bloomCullingMask:
@@ -10462,7 +10462,7 @@ MonoBehaviour:
   _sunFlaresRotationDeadZone: 0
   _blur: 0
   _blurIntensity: 0
-  isDirty: 1
+  isDirty: 0
   bMat: {fileID: 0}
 --- !u!1 &758455653
 GameObject:
@@ -12190,7 +12190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.627451}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
