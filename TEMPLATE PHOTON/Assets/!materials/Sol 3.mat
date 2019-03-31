@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Sol 3
-  m_Shader: {fileID: 47, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP _SPECGLOSSMAP
+  m_Shader: {fileID: 4800000, guid: 3f1ed1937f3be49baa41738323c3784f, type: 3}
+  m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP _SPECGLOSSMAP _USEFLOWMAP3_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -20,7 +20,27 @@ Material:
     m_TexEnvs:
     - _BumpMap:
         m_Texture: {fileID: 2800000, guid: cf33c169e81bbe941bbd5da65882940a, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 7, y: 7}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap2:
+        m_Texture: {fileID: 2800000, guid: 0add9783f1ed40a4ebea8e9495daa6bd, type: 3}
+        m_Scale: {x: 7, y: 7}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap3:
+        m_Texture: {fileID: 2800000, guid: 25fd7c1b90527d24faafab0d883a5970, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _CombinedMap:
+        m_Texture: {fileID: 2800000, guid: d4664b6533732f043b7094f64cdc2988, type: 3}
+        m_Scale: {x: 7, y: 7}
+        m_Offset: {x: 0, y: 0}
+    - _CombinedMap2:
+        m_Texture: {fileID: 2800000, guid: fb4162531d24a38419f571b52993cae7, type: 3}
+        m_Scale: {x: 7, y: 7}
+        m_Offset: {x: 0, y: 0}
+    - _CombinedMap3:
+        m_Texture: {fileID: 2800000, guid: f8881cad4d5bebc44a8fca7da539d647, type: 3}
+        m_Scale: {x: 20, y: 20}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
@@ -42,6 +62,14 @@ Material:
         m_Texture: {fileID: 2800000, guid: 5afaf6041894d144482d83db9bf0fce0, type: 3}
         m_Scale: {x: 7, y: 7}
         m_Offset: {x: 0, y: 0}
+    - _MainTex2:
+        m_Texture: {fileID: 2800000, guid: cd4931088349ecf43a64b9e5e0d8c6e3, type: 3}
+        m_Scale: {x: 7, y: 7}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex3:
+        m_Texture: {fileID: 2800000, guid: a5ac305373b288f4c85ce162cc9195db, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 2800000, guid: 14848ef68840717449e414641f73701a, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -59,23 +87,73 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _BaseHeight2: 0
+    - _BaseHeight3: -0.73
+    - _BlendSmooth2: 0.5
+    - _BlendSmooth3: 0.151
     - _BumpScale: 2.09
     - _Cutoff: 0.5
+    - _DepthBias: 50
+    - _DepthBiasPower: 2
+    - _DepthBiasThreshold: 0
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _Emission: 0
+    - _Emission2: 0
+    - _Emission3: 0
     - _GlossMapScale: 0.057
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _HeightBasedTransparency2: 0.5
+    - _HeightBasedTransparency3: 0
+    - _HeightmapFactor2: 0.5
+    - _HeightmapFactor3: 0.59
     - _Metallic: 0
+    - _Metallic2: 0
+    - _Metallic3: 0
     - _Mode: 0
+    - _Occlusion: 1
+    - _Occlusion2: 1
+    - _Occlusion3: 0.293
     - _OcclusionStrength: 1
     - _Parallax: 0.08
+    - _Parallax2: -0.01
+    - _Parallax3: -0.01
+    - _ParallaxInterpolation: 15
+    - _Smoothness: 0.211
+    - _Smoothness2: 0.216
+    - _Smoothness3: 0.124
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
+    - _showAlpha: 0
+    - _showBlue: 1
+    - _showGeneral: 0
+    - _showGreen: 1
+    - _showParallax: 0
+    - _showRed: 0
+    - _showVertexColor: 0
+    - _showVertexFlow: 0
+    - _useDepthBias: 0
+    - _useHeightBasedBlending: 1
+    - _useP1_2: 1
+    - _useP1_3: 1
+    - _useParallax: 0
+    - _wetnessEdgeBlend: 0.25
+    - _wetnessNormalModifier: 0.5
+    - _wetnessNormalModifier2: 0.5
+    - _wetnessNormalModifier3: 0.5
+    - _wetnessSmoothnessModifier: 0.8
+    - _wetnessSmoothnessModifier2: 0.8
+    - _wetnessSmoothnessModifier3: 0.8
     m_Colors:
-    - _Color: {r: 0.764151, g: 0.57192945, b: 0.53706837, a: 1}
+    - _Color: {r: 0.68019557, g: 0.8396226, b: 0.37624598, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor2: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor3: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    - _wetnessAlbedoModifier: {r: 0.3, g: 0.3, b: 0.35, a: 1}
+    - _wetnessAlbedoModifier2: {r: 0.3, g: 0.3, b: 0.35, a: 1}
+    - _wetnessAlbedoModifier3: {r: 0.3, g: 0.3, b: 0.35, a: 1}

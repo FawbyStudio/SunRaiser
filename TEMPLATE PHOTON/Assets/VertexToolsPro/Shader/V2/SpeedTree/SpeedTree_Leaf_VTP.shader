@@ -1,3 +1,5 @@
+// Upgrade NOTE: removed variant '__' where variant LOD_FADE_PERCENTAGE is used.
+
 // Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
 Shader "VTP/SpeedTree/Leaf"
@@ -92,7 +94,7 @@ Shader "VTP/SpeedTree/Leaf"
 
 		#pragma target 3.0
 		#pragma surface surf StandardCustom keepalpha addshadow fullforwardshadows vertex:vert 
-		#pragma multi_compile __ LOD_FADE_PERCENTAGE LOD_FADE_CROSSFADE
+		#pragma multi_compile  LOD_FADE_PERCENTAGE LOD_FADE_CROSSFADE
 		#pragma multi_compile _HEIGHT_NONE _HEIGHT_FADE _HEIGHT_HARD _HEIGHT_CAP
 		#pragma multi_compile_instancing
 		#pragma instancing_options assumeuniformscaling lodfade maxcount:50

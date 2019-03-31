@@ -1,4 +1,6 @@
-﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+﻿// Upgrade NOTE: removed variant '__' where variant LOD_FADE_PERCENTAGE is used.
+
+// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
 Shader "VTP/SpeedTree/Branch (Tessellated)" {
 	Properties {
@@ -163,7 +165,7 @@ Shader "VTP/SpeedTree/Branch (Tessellated)" {
 		#pragma surface surf Standard keepalpha fullforwardshadows addshadow vertex:disp tessellate:tess
 		// Use shader model 3.0 target, to get nicer looking lighting
 
-		#pragma multi_compile __ LOD_FADE_PERCENTAGE LOD_FADE_CROSSFADE
+		#pragma multi_compile  LOD_FADE_PERCENTAGE LOD_FADE_CROSSFADE
 		#pragma shader_feature GEOM_TYPE_BRANCH GEOM_TYPE_FROND
 		#pragma shader_feature _TESSELATIONMODE_DISTANCE _TESSELATIONMODE_EDGE _TESSELATIONMODE_FIXED
 		#pragma shader_feature __ _HEIGHTBASED_BLENDING

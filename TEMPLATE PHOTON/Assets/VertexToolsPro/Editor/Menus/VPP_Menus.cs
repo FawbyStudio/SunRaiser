@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using UnityEditor;
-using System.Collections;
 
 public class VPP_Menus : MonoBehaviour {
 
@@ -18,7 +17,7 @@ public class VPP_Menus : MonoBehaviour {
 
 	}
 
-	[MenuItem("Tools/Vertex Tools Pro/SpeedTree Painter (Early Access) #%t", false, 10)]
+	/*[MenuItem("Tools/Vertex Tools Pro/SpeedTree Painter (Early Access) #%t", false, 10)]
 	static void LaunchVTTree() {
 
 		VT_Tree_window.LaunchVT_Tree_window ();
