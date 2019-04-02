@@ -109,7 +109,7 @@ Material:
     - _HeightmapFactor2: 0.5
     - _HeightmapFactor3: 0.59
     - _Metallic: 0
-    - _Metallic2: 0
+    - _Metallic2: 0.211
     - _Metallic3: 0
     - _Mode: 0
     - _Occlusion: 1
@@ -131,7 +131,7 @@ Material:
     - _showAlpha: 0
     - _showBlue: 1
     - _showGeneral: 0
-    - _showGreen: 1
+    - _showGreen: 0
     - _showParallax: 0
     - _showRed: 0
     - _showVertexColor: 0
