@@ -82,7 +82,7 @@ GameObject:
   - component: {fileID: 114661372793682428}
   - component: {fileID: 54565020622164932}
   - component: {fileID: 95712239305772368}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: GOBLIN
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -7722,7 +7722,7 @@ CapsuleCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.9
-  m_Height: 2.44
+  m_Height: 2.53
   m_Direction: 1
   m_Center: {x: 0, y: 0.96, z: 0}
 --- !u!136 &136578985754742882

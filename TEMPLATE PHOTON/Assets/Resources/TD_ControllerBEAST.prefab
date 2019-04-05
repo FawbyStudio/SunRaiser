@@ -8788,27 +8788,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _preset: 999
   _quality: 0
-  _profile: {fileID: 11400000, guid: d1bbc2dcdc7909646a6033968de02137, type: 2}
+  _profile: {fileID: 11400000, guid: 51f978f7e8c8c9c429985b93299e0ee3, type: 2}
   _compareMode: 0
   _compareLineAngle: 1.4
   _compareLineWidth: 0.002
-  _dither: 0.05
+  _dither: 0.0876
   _ditherDepth: 0
   _sharpenMinDepth: 0
   _sharpenMaxDepth: 0.999
-  _sharpen: 5.63
+  _sharpen: 3.93
   _sharpenDepthThreshold: 0.035
-  _tintColor: {r: 1, g: 1, b: 1, a: 0.6156863}
+  _tintColor: {r: 0.8526281, g: 0.6179246, b: 1, a: 0.34117648}
   _sharpenRelaxation: 0.07
   _sharpenClamp: 0.45
   _sharpenMotionSensibility: 0.5
-  _saturate: -0.64
-  _contrast: 1.053
-  _brightness: 0.983
+  _saturate: -0.39
+  _contrast: 1.103
+  _brightness: 1.139
   _daltonize: 0
   _vignetting: 1
   _vignettingColor: {r: 0, g: 0, b: 0, a: 0.078431375}
-  _vignettingCircularShape: 1
+  _vignettingCircularShape: 0
   _vignettingMask: {fileID: 0}
   _frame: 0
   _frameColor: {r: 1, g: 1, b: 1, a: 0.047}
@@ -8822,15 +8822,15 @@ MonoBehaviour:
   _outlineMode: 0
   _thermalVision: 0
   _lensDirt: 1
-  _lensDirtThreshold: 0.498
-  _lensDirtIntensity: 0.174
+  _lensDirtThreshold: 0.484
+  _lensDirtIntensity: 0.266
   _lensDirtTexture: {fileID: 2800000, guid: dec70c1ae0ce346849f747716f782eb8, type: 3}
   _bloom: 1
   _bloomCullingMask:
     serializedVersion: 2
     m_Bits: 0
   _bloomLayerMaskDownsampling: 1
-  _bloomIntensity: 0.15
+  _bloomIntensity: 0.19
   _bloomMaxBrightness: 1000
   _bloomBoost0: 0
   _bloomBoost1: 0
@@ -8840,7 +8840,7 @@ MonoBehaviour:
   _bloomBoost5: 0
   _bloomAntiflicker: 0
   _bloomUltra: 0
-  _bloomThreshold: 0.43
+  _bloomThreshold: 0.16
   _bloomCustomize: 0
   _bloomDebug: 0
   _bloomWeight0: 0.5
@@ -8893,7 +8893,7 @@ MonoBehaviour:
   _eyeAdaptationMaxExposure: 5
   _eyeAdaptationSpeedToLight: 1
   _eyeAdaptationSpeedToDark: 0.7
-  _purkinje: 0
+  _purkinje: 1
   _purkinjeAmount: 1
   _purkinjeLuminanceThreshold: 0.15
   _tonemap: 0
@@ -8936,7 +8936,7 @@ MonoBehaviour:
   _sunFlaresRotationDeadZone: 0
   _blur: 0
   _blurIntensity: 0
-  isDirty: 1
+  isDirty: 0
   bMat: {fileID: 0}
 --- !u!114 &114885583390082198
 MonoBehaviour:
