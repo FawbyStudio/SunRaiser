@@ -468,6 +468,8 @@ GameObject:
   - component: {fileID: 114660092439294806}
   - component: {fileID: 114879845475679278}
   - component: {fileID: 114676731825250890}
+  - component: {fileID: 114542407067893518}
+  - component: {fileID: 114833352245276890}
   m_Layer: 0
   m_Name: Camera_Player
   m_TagString: Untagged
@@ -1040,7 +1042,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1859957770967852}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 12.4, y: 0, z: -6.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4224085733331116}
@@ -1524,7 +1526,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 0.61500275, b: 0.4009434, a: 1}
-  m_Intensity: 20
+  m_Intensity: 1.77
   m_Range: 16.4
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -4136,6 +4138,34 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 1
+--- !u!114 &114542407067893518
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1622586664086976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a970acddb8696a4792ca6e022840a0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NoiseTexture: {fileID: 2800000, guid: 45ca7cd7d934d6245bb4539f780e4892, type: 3}
+  UseHighPrecisionDepthMap: 0
+  Samples: 1
+  Downsampling: 1
+  Radius: 0.519
+  Intensity: 2.5
+  Distance: 1
+  Bias: 0.307
+  LumContribution: 0.547
+  OcclusionColor: {r: 0, g: 0, b: 0, a: 1}
+  CutoffDistance: 150
+  CutoffFalloff: 50
+  Blur: 2
+  BlurDownsampling: 0
+  BlurPasses: 1
+  BlurBilateralThreshold: 10
+  DebugAO: 0
 --- !u!114 &114554620604691676
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5422,7 +5452,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101
-        actionIsOpen: 0001
+        actionIsOpen: 0000
         actionStartIndex: 0000000009000000
         actionHashCodes: 872f90024e661301
         unityObjectParams: []
@@ -5768,7 +5798,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -5795,7 +5825,7 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 1
+    handleLateUpdate: 0
     handleApplicationEvents: 0
     handleUiEvents: 0
     handleLegacyNetworking: 0
@@ -8703,6 +8733,32 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+--- !u!114 &114833352245276890
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1622586664086976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eb841ed17a74ce459ed8eac2b537b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transparentMaterial: {fileID: 2100000, guid: a550ce2ad27df0c41a52608c4972af10, type: 2}
+  replicateTexture: 0
+  fadingTime: 0.172
+  transparenceValue: 0.3
+  ignoreTriggers: 1
+  fadingColorFullWhite: {r: 1, g: 1, b: 1, a: 1}
+  fadingColorToUse: {r: 1, g: 1, b: 1, a: 0.14509805}
+  layersToFade:
+    serializedVersion: 2
+    m_Bits: 311
+  playerTransform: {fileID: 0}
+  offset: -0.5
+  playerTag: Player
+  useSpherecast: 0
+  spherecastRadius: 0.5
 --- !u!114 &114840847172642126
 MonoBehaviour:
   m_ObjectHideFlags: 1

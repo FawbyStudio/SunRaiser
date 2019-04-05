@@ -88,9 +88,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BaseHeight2: 0
-    - _BaseHeight3: -0.73
+    - _BaseHeight3: -0.49
     - _BlendSmooth2: 0.5
-    - _BlendSmooth3: 0.151
+    - _BlendSmooth3: 0.034
     - _BumpScale: 2.09
     - _Cutoff: 0.5
     - _DepthBias: 50
@@ -105,24 +105,24 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _HeightBasedTransparency2: 0.5
-    - _HeightBasedTransparency3: 0
+    - _HeightBasedTransparency3: 0.112
     - _HeightmapFactor2: 0.5
-    - _HeightmapFactor3: 0.59
+    - _HeightmapFactor3: 0.365
     - _Metallic: 0
     - _Metallic2: 0.211
     - _Metallic3: 0
     - _Mode: 0
-    - _Occlusion: 1
+    - _Occlusion: 0.684
     - _Occlusion2: 1
-    - _Occlusion3: 0.293
+    - _Occlusion3: 0.636
     - _OcclusionStrength: 1
     - _Parallax: 0.08
     - _Parallax2: -0.01
     - _Parallax3: -0.01
     - _ParallaxInterpolation: 15
-    - _Smoothness: 0.211
-    - _Smoothness2: 0.216
-    - _Smoothness3: 0.124
+    - _Smoothness: 0
+    - _Smoothness2: 0
+    - _Smoothness3: 0.455
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -141,7 +141,7 @@ Material:
     - _useP1_2: 1
     - _useP1_3: 1
     - _useParallax: 0
-    - _wetnessEdgeBlend: 0.25
+    - _wetnessEdgeBlend: 0.14
     - _wetnessNormalModifier: 0.5
     - _wetnessNormalModifier2: 0.5
     - _wetnessNormalModifier3: 0.5
