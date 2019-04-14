@@ -1600,7 +1600,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 0.61500275, b: 0.4009434, a: 1}
-  m_Intensity: 8
+  m_Intensity: 2
   m_Range: 16.4
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -1754,7 +1754,7 @@ MonoBehaviour:
   _outlineMode: 0
   _thermalVision: 0
   _lensDirt: 1
-  _lensDirtThreshold: 0.484
+  _lensDirtThreshold: 0.494
   _lensDirtIntensity: 0.266
   _lensDirtTexture: {fileID: 2800000, guid: dec70c1ae0ce346849f747716f782eb8, type: 3}
   _bloom: 1

@@ -19,6 +19,7 @@ TagManager:
   - SpecialSpellIcon
   - ClassIcon
   - GOD
+  - UI
   layers:
   - Default
   - TransparentFX
@@ -31,10 +32,10 @@ TagManager:
   - PostProcessing
   - Enemy
   - Floor
-  - 
-  - 
-  - 
-  - 
+  - FogVolumeShadowCaster
+  - FogVolume
+  - FogVolumeSurrogate
+  - FogVolumeUniform
   - 
   - 
   - 
