@@ -11612,7 +11612,7 @@ MonoBehaviour:
       isGlobal: 1
     - name: DoYourThing
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     globalTransitions:
     - fsmEvent:
         name: ADVERTISE
