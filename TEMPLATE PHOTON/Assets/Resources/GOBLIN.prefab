@@ -2945,28 +2945,18 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.SetAnimatorTrigger
         - HutongGames.PlayMaker.Actions.Wait
         - HutongGames.PlayMaker.Actions.AnimatorStopPlayback
-        - HutongGames.PlayMaker.Actions.FindGameObject
-        - HutongGames.PlayMaker.Actions.SubtractFsmInt
         customNames:
         - 
         - 
         - 
         - 
         - 
-        - 
-        - 
-        actionEnabled: 01010101010101
-        actionIsOpen: 00000000000001
-        actionStartIndex: 000000000200000006000000080000000b0000000c0000000f000000
-        actionHashCodes: 5ac852045e69bb049bd6f80148c011018d4bb503786b39020d1c4e02
+        actionEnabled: 0101010101
+        actionIsOpen: 0000000000
+        actionStartIndex: 000000000200000006000000080000000b000000
+        actionHashCodes: 5ac852045e69bb049bd6f80148c011018d4bb503
         unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 1
-          name: master
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
+        fsmGameObjectParams: []
         fsmOwnerDefaultParams:
         - ownerOption: 0
           gameObject:
@@ -2980,14 +2970,6 @@ MonoBehaviour:
           gameObject:
             useVariable: 0
             name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        - ownerOption: 1
-          gameObject:
-            useVariable: 1
-            name: master
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -3169,30 +3151,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: Die
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: master
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Spawn Enemy
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: enemyCount
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -3210,13 +3168,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 6
-        fsmIntParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 1
+        fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -3226,12 +3178,12 @@ MonoBehaviour:
         stringParams:
         - DeadState
         - FINISHED
-        byteData: 0000010000
+        byteData: 000001
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 24000000010000001f000000170000000f0000000100000014000000120000000f000000170000000100000014000000120000001200000013000000140000001200000012000000100000000100000001000000
+        paramDataType: 24000000010000001f000000170000000f0000000100000014000000120000000f000000170000000100000014000000
         paramName:
         - targetProperty
         - everyFrame
@@ -3245,17 +3197,8 @@ MonoBehaviour:
         - finishEvent
         - realTime
         - gameObject
-        - objectName
-        - withTag
-        - store
-        - gameObject
-        - fsmName
-        - variableName
-        - subtractValue
-        - everyFrame
-        - perSecond
-        paramDataPos: 000000000000000000000000000000000000000001000000000000000000000001000000010000000200000001000000010000000200000000000000020000000300000004000000000000000300000004000000
-        paramByteDataSize: 000000000100000000000000000000000000000001000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000001000000
+        paramDataPos: 000000000000000000000000000000000000000001000000000000000000000001000000010000000200000001000000
+        paramByteDataSize: 000000000100000000000000000000000000000001000000000000000000000000000000000000000100000000000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -3306,12 +3249,6 @@ MonoBehaviour:
       quaternionVariables: []
       gameObjectVariables:
       - useVariable: 1
-        name: master
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: {fileID: 0}
-      - useVariable: 1
         name: self
         tooltip: 
         showInInspector: 0
@@ -3324,7 +3261,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 0000000000000000000000000000000000000000
+      variableCategoryIDs: 00000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
