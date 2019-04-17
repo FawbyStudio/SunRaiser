@@ -1,1 +1,0 @@
-Warning: None triangle mesh: SymÃ©trie (file: 'C:\Users\Emmanuel\Documents\GitHub\SunRaiser\TEMPLATE PHOTON\Assets\!import\Basy@Idle.fbx') [ (line 0)]

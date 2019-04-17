@@ -1,1 +1,0 @@
-Warning: Invalid texture in material Tronc (file: 'C:\Users\Emmanuel\Documents\GitHub\SunRaiser\TEMPLATE PHOTON\Assets\!import\Arbre1.fbx') [ (line 0)]
